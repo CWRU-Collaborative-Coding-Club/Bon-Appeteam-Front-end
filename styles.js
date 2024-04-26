@@ -57,12 +57,13 @@ export default StyleSheet.create({
     fontWeight: "bold",
     fontFamily: "Arial",
     alignSelf: "flex-start",
+    padding: 10,
   },
   field: {
     fontSize: 20,
     fontFamily: "Arial",
     alignSelf: "flex-start",
+    padding: 10,
   },
 });
 
-//export default styl;
