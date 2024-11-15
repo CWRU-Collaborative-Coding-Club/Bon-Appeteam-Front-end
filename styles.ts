@@ -1,49 +1,49 @@
-import { StyleSheet } from 'react-native';
+import {Dimensions, StyleSheet} from 'react-native';
 
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        padding: 24,
-        backgroundColor: '#eaeaea',
-    },
-    header : {
-        fontSize: 24,
-        fontWeight: 'bold',
-        marginBottom: 20,
-        textAlign: 'center',
-    },
-    table: {
-        borderWidth: 1,
-        borderColor: '#000',
-    },
-    tableRow: {
-        flexDirection: 'row',
-        borderBottomWidth: 1,
-        borderColor: '#000',
-    },
-    tableCell: {
-        flex: 1,
-        padding: 8,
-        paddingLeft: 15,
-        borderRightWidth: 1,
-        borderColor: '#000',
-        justifyContent: 'center',
-    },
-    tableHeader: {
-        fontWeight: 'bold',
-        textAlign: 'center',
+        padding: 10,
+        backgroundColor: '#f6f5f5',
     },
     title: {
-        marginTop: 16,
-        paddingVertical: 8,
-        borderWidth: 4,
-        borderColor: '#20232a',
-        borderRadius: 6,
-        backgroundColor: '#61dafb',
-        color: '#20232a',
-        textAlign: 'center',
-        fontSize: 30,
+        fontSize: 24,
         fontWeight: 'bold',
+        color: '#333',
+        marginBottom: 16,
+    },
+    optionBlock: {
+        backgroundColor: '#fff',
+        borderRadius: 8,
+        padding: 16,
+        marginBottom: 16,
+        shadowColor: '#000',
+        shadowOffset: { width: 0, height: 2 },
+        shadowOpacity: 0.1,
+        shadowRadius: 8,
+        elevation: 2,
+    },
+    blockTitle: {
+        fontSize: 18,
+        fontWeight: '600',
+        marginBottom: 8,
+    },
+    block: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        marginBottom: 8,
+    },
+    label: {
+        fontSize: 14,
+        color: '#666',
+    },
+    progressBar: {
+        height: 8,
+        borderRadius: 5,
+        marginLeft: 8,
+        maxWidth: Dimensions.get('window').width - 150,
+        borderWidth: 0.1,
+        borderColor: '#000',
     },
     blue: {
         color: '#003071'
